@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Times New Roman;
+}
+
+header {
+  background-color: #333;
+}
+
+header img {
+  float: left;
+  padding: 15px 0;
+}
+
+header ul {
+  float: right;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+  color: yellow;
+}
+
+header ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #555;
+  color: white;
+}
+
+.banner {
+  height: 60vh;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-architecture-business-office-building-exterior_74190-2472.jpg?w=826&t=st=1676862984~exp=1676863584~hmac=c5ed52ac2f0707652998f703abdade7c379306013f3b9f01fbb904a3cbc6c9f6"); 
+  background-size: cover;
+  position: relative;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.konten2 {
+  text-align: center;
+  background-color: #c0eef2;
+  border: 1px solid black;
+}
+
+.konten2 h2 {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.gambar {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.gambar img {
+  max-width: 300px;
+  border-radius: 50%;
+  width: 153px;
+  box-shadow: 2px 2px 5px #999;
+  height: 147px;
+  margin: 20px;
+}
+
+.gambar img:hover {
+  transform: scale(1.1);
+}
+
+.gambar p {
+  text-align: center;
+}
+
+.konten3 {
+  background-color: #c0eef2;
+  padding: 30px;
+  border: 1px solid black;
+  display: block;
+  line-height: 40px;
+}
+
+.konten3 h2 {
+  font-size: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+footer {
+  background-color: #333;
+  color: yellow;
+  text-align: right;
+  padding: 20px;
+}
+
+@media screen and (max-width:768px){
+  .container {
+    width: 90%;
+  }
+  header {
+    text-align: center;
+    float: none;
+  }
+  header ul {
+    text-align: center;
+    float: none;
+  }
+}
